@@ -16,3 +16,45 @@
     background-color: hsl(356, 100%, 66%);
     position: relative;
 }
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left{
+    display: flex;
+}
+
+.header-h1{
+    color: #fff;
+}
+
+.header-ul{
+    display: flex;
+    padding: 5px 2rem;
+}
+
+.header-ul li{
+    list-style: none;
+    padding: 5px 20px;
+    color: #fff;
+}
+
+.header-right{
+    display: flex;
+}
+
+.header-h2{
+    font-size: 16px;
+    padding: 10px 1rem;
+    color: #fff;
+}
+
+.header-h3{
+    font-size: 16px;
+    padding: 10px 3rem;
+    border-radius: 30px;
+    background: #fff;
+    color:hsl(356, 74%, 50%);
+}
