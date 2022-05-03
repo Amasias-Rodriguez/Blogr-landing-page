@@ -127,3 +127,53 @@
     color: hsl(356, 74%, 50%);
     background: #fff;
 }
+
+/* SECTION 2 */
+
+.section2{
+    width: 100%;
+    max-width: 1440px;
+}
+
+.sec2title{
+    width: 100%;
+    padding: 4rem 0;
+}
+
+.sec2titleh1{
+    font-size: 34px;
+    text-align: center;
+    margin-top: 3rem;
+    color: hsl(208, 49%, 24%);
+}
+
+.sec2container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 2rem;
+}
+
+.sec2h2,
+.sec2h3{
+    font-size: 25px;
+    padding: 20px 5rem;
+    color: hsl(208, 49%, 24%);
+}
+
+.sec2p1,
+.sec2p2{
+    font-size: 16px;
+    color: hsl(207, 13%, 34%);
+    padding: 0 5rem;
+}
+
+.sec2-img{
+    width: 100%;
+}
+
+.sec2image{
+    width: 605px;
+    position: relative;
+    left: 4rem;
+    bottom: 8rem;  
+}
