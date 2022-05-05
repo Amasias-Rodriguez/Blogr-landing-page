@@ -234,7 +234,6 @@
     grid-template-columns: repeat(2, 1fr);
     padding-top: 6rem;
     padding-right: 15rem;
-    border: 1px solid greenyellow;
 }
 
 .sec4-img{
@@ -261,4 +260,44 @@
 .sec4p{
     position: relative;
     top: 3rem;
+}
+
+
+/* SECTION 5 */
+
+.section5{
+    width: 100%;
+    height: 50vh;
+    border-top-right-radius: 80px;
+    padding: 5rem 8rem;
+    position: relative;
+    top: 5rem;
+    background: hsl(240, 10%, 16%);
+}
+
+.sec5container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: #fff;
+}
+
+.sec5h1{
+    font-size: 35px;
+}
+
+.sec5-col ul{
+    display: flex;
+    flex-direction: column;
+    color: #b6b3b3;
+}
+
+.sec5-col ul li{
+    padding: 5px;
+    list-style: none;
+}
+
+.lihead{
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #fff;
 }
