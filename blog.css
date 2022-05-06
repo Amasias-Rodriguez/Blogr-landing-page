@@ -22,7 +22,7 @@
 .header-container{
     display: flex;
     justify-content: space-between;
-    padding: 3rem 5rem;
+    padding: 3rem 5.1rem;
 }
 
 .header-left{
@@ -35,7 +35,7 @@
 
 .header-ul{
     display: flex;
-    padding: 5px 2rem;
+    padding: 5px 2.1rem;
 }
 
 .header-ul li{
@@ -61,7 +61,7 @@
     padding: 10px 3rem;
     border-radius: 30px;
     background: #fff;
-    color:hsl(356, 74%, 50%);
+    color: hsl(356, 74%, 50%);
     cursor: pointer;
 }
 
@@ -100,7 +100,7 @@
     padding: 15px;
     border-radius: 30px;
     background: #fff;
-    color:hsl(356, 74%, 50%);
+    color: hsl(356, 74%, 50%);
     cursor: pointer;
 }
 
